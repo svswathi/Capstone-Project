@@ -1,0 +1,33 @@
+.about-grid {
+    display: grid;
+    background-color: var(--color-secondary-two);
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .about-grid {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+.about-title {
+    font-size: var(--font-size-subtitle);
+    color: var(--color-primary-one);
+}
+
+.about-city {
+    font-size: var(--font-size-text);
+    color: var(--color-secondary-one);
+}
+
+.about-img {
+    width: auto;
+    height: 90px;
+    border-radius: 16px;
+}
+
+.about-img-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}

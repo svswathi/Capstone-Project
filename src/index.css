@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: 'Marakezi Text', 'Karla', sans-serif;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  /* --font-primary: ; */
+
+  --color-primary-one: #495E57;
+  --color-primary-two: #F4CE14;
+  --color-secondary-one: #EE9972;
+  --color-secondary-two: #FBDABB;
+  --color-secondary-three: #EDEFEE;
+  --color-secondary-four: #333333;
+
+  --font-size-title: 54px;
+  --font-size-subtitle: 24px;
+  --font-size-text: 12px;
+}
